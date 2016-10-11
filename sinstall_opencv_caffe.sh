@@ -18,3 +18,8 @@ cp /caffeonubuntu/Makefile.config /nn/caffe-master/
 make all -j4
 make test
 make runtest
+
+
+echo "------all make done ------"
+
+echo "------plz mkdir /imageDB and copy self data before test the mnist------"
