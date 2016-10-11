@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-cp /caffeonubuntu/testjpg.jpg  /imgDB/testjpg.jpg
+cp /caffeonubuntu/testjpg.jpg  /imageDB/testjpg.jpg
 
 EXAMPLE=/imageDB
 DATA=/imageDB
