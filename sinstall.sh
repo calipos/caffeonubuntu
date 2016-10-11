@@ -39,7 +39,7 @@ apt-get install  -y cython
 apt-get install  -y ipython
 apt-get install  -y python-yaml
 apt-get install  -y protobuf-c-compiler 
-apt-get install  -y protobuf-compile
+apt-get install  -y protobuf-compiler
 sh ./opencv_dependencies.sh
 mkdir nn
 cd nn/
