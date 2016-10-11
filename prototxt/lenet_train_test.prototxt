@@ -28,7 +28,7 @@ layer {
     scale: 0.00390625
   }
   data_param {
-    source: /imageDB/test_lmdb"
+    source: "/imageDB/test_lmdb"
     batch_size: 100
     backend: LMDB
   }
