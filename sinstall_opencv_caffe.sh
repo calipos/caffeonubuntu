@@ -14,7 +14,7 @@ echo "OpenCV" $version "ready to be used"
 
 
 cd /nn/caffeonubuntu/
-cp Makefile.config /nn/caffe-master/
+cp /caffeinstall/Makefile.config /nn/caffe-master/
 make all -j4
 make test
 make runtest
