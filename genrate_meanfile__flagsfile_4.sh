@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
+cp /caffeonubuntu/testjpg.jpg  /imgDB/testjpg.jpg
+
 EXAMPLE=/imageDB
 DATA=/imageDB
 TOOLS=/nn/caffe-master/build/tools
