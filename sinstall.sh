@@ -41,6 +41,7 @@ apt-get install  -y python-yaml
 apt-get install  -y protobuf-c-compiler 
 apt-get install  -y protobuf-compiler
 sh ./opencv_dependencies.sh
+cd /
 mkdir nn
 cd nn/
 mkdir opencv
@@ -50,5 +51,6 @@ apt-get install -y  openssh-server
 echo "--- Plz test WinSCP , local ip is "
 ifconfig |grep "inet addr"
 echo "---if winscp cannot connect, try reboot"
+echo "---the config in /etc/ssh/sshd_consif must be modified"
 echo "---else copy the caffe file and the opencv2.4.13 to the dir:/nn and /nn/opencv/ "
 echo "---pwd = /caffeinstall, if reboot, plz cd this director &run the another .sh "
