@@ -13,7 +13,7 @@ sudo ldconfig
 echo "OpenCV" $version "ready to be used"
 
 
-cd /nn/caffeonubuntu/
+cd /nn/caffe-master/
 cp /caffeinstall/Makefile.config /nn/caffe-master/
 make all -j4
 make test
