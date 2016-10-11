@@ -14,7 +14,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-security main multiverse res
 deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-updates main multiverse restricted universe ">/etc/apt/sources.list
 apt-get update
 apt-get upgrade
-apt-get install libprotobuf
+# apt-get install libprotobuf
 apt-get install libprotobuf-dev
 apt-get install libleveldb-dev
 apt-get install libsnappy-dev
