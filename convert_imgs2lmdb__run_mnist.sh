@@ -61,7 +61,7 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --shuffle \
     $VAL_DATA_ROOT \
     $DATA/list \
-    $EXAMPLE/val_lmdb
+    $EXAMPLE/test_lmdb
 
 echo "***************imgs2lmdb  Done."
 echo "***************imgs2lmdb  Done."
