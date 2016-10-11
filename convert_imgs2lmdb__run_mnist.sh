@@ -51,7 +51,7 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --shuffle \
     $TRAIN_DATA_ROOT \
     $DATA/list \
-    $EXAMPLE/ilsvrc12_train_lmdb
+    $EXAMPLE/train_lmdb
 
 echo "Creating val lmdb..."
 
@@ -61,7 +61,7 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --shuffle \
     $VAL_DATA_ROOT \
     $DATA/list \
-    $EXAMPLE/ilsvrc12_val_lmdb
+    $EXAMPLE/val_lmdb
 
 echo "***************imgs2lmdb  Done."
 echo "***************imgs2lmdb  Done."
