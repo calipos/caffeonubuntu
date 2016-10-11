@@ -66,3 +66,12 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
 echo "***************imgs2lmdb  Done."
 echo "***************imgs2lmdb  Done."
 echo "***************imgs2lmdb  Done."
+
+mkdir /imageDB/prototxt
+mkdir /imageDB/caffe_result
+cp /caffeonubuntu/prototxt/lenet_solver.prototxt /imageDB/prototxt/lenet_solver.prototxt
+cp /caffeonubuntu/prototxt/lenet_train_test.prototxt /imageDB/prototxt/lenet_train_test.prototxt
+cp /caffeonubuntu/prototxt/lenet.prototxt /imageDB/prototxt/lenet.prototxt
+
+/nn/caffe-master/build/tools/caffe train --solver=/imageDB/prototxt/lenet_solver.prototxt $@
+
