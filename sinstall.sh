@@ -51,4 +51,4 @@ echo "--- Plz test WinSCP , local ip is "
 ifconfig |grep "inet addr"
 echo "---if winscp cannot connect, try reboot"
 echo "---else copy the caffe file and the opencv2.4.13 to the dir:/nn and /nn/opencv/ "
-
+echo "---pwd = /nn/caffeonubuntu, if reboot, plz cd this director &run the another .sh "
