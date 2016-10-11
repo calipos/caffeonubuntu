@@ -30,41 +30,41 @@ echo "------ install libdc1394 ------"
 apt-get -y install libdc1394-22-dev
 echo "------ install libxine2 ------"
 apt-get -y install libxine2-dev
-echo "------ install build-essential ------"
+echo "------ install libgstreamer0 ------"
 apt-get -y install libgstreamer0.10-dev
-echo "------ install build-essential ------"
+echo "------ install libgstreamer ------"
 apt-get -y install libgstreamer-plugins-base0.10-dev
-echo "------ install build-essential ------"
+echo "------ install libv4l ------"
 apt-get -y install libv4l-dev
-echo "------ install build-essential ------"
+echo "------ install python ------"
 apt-get -y install python-dev
-echo "------ install build-essential ------"
+echo "------ install numpy ------"
 apt-get -y install python-numpy
-echo "------ install build-essential ------"
+echo "------ install libtbb ------"
 apt-get -y install libtbb-dev
-echo "------ install build-essential ------"
+echo "------ install libqt4 ------"
 apt-get -y install libqt4-dev
-echo "------ install build-essential ------"
+echo "------ install libgtk2 ------"
 apt-get -y install libgtk2.0-dev
-echo "------ install build-essential ------"
+echo "------ install libfaac ------"
 apt-get -y install libfaac-dev
-echo "------ install build-essential ------"
+echo "------ install libmp3lame ------"
 apt-get -y install libmp3lame-dev
-echo "------ install build-essential ------"
+echo "------ install libopencore ------"
 apt-get -y install libopencore-amrnb-dev
-echo "------ install build-essential ------"
+echo "------ install libopencore ------"
 apt-get -y install libopencore-amrwb-dev
-echo "------ install build-essential ------"
+echo "------ install libtheora ------"
 apt-get -y install libtheora-dev
-echo "------ install build-essential ------"
+echo "------ install libvorbis ------"
 apt-get -y install libvorbis-dev
-echo "------ install build-essential ------"
+echo "------ install libxvidcore ------"
 apt-get -y install libxvidcore-dev
-echo "------ install build-essential ------"
+echo "------ install x264 ------"
 apt-get -y install x264
-echo "------ install build-essential ------"
+echo "------ install v4l ------"
 apt-get -y install v4l-utils
-echo "------ install build-essential ------"
+echo "------ install unzip ------"
 #install_dependency ffmpeg
 apt-get -y install unzip
 
