@@ -20,6 +20,6 @@ display: 100
 max_iter: 5000
 # snapshot intermediate results
 snapshot: 5000
-snapshot_prefix: "/imageDB/caffe_result"
+snapshot_prefix: "/imageDB/caffe_result/lenet"
 # solver mode: CPU or GPU
 solver_mode: CPU
