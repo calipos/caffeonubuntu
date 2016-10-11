@@ -1,3 +1,4 @@
+set -e
 echo "--- Removing any pre-installed ffmpeg and x264"
 sudo apt-get -qq remove ffmpeg x264 libx264-dev
 
