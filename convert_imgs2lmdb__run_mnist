@@ -63,4 +63,6 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     $DATA/list \
     $EXAMPLE/ilsvrc12_val_lmdb
 
-echo "Done."
+echo "***************imgs2lmdb  Done."
+echo "***************imgs2lmdb  Done."
+echo "***************imgs2lmdb  Done."
