@@ -1,43 +1,39 @@
 set -e
 echo "--- Removing any pre-installed ffmpeg and x264"
-sudo apt-get -qq remove ffmpeg x264 libx264-dev
+apt-get -qq remove ffmpeg x264 libx264-dev
 
-function install_dependency {
-    echo "--- Installing dependency: $1"
-    apt-get -y install $1
-}
 
-install_dependency libopencv-dev
-install_dependency build-essential
-install_dependency checkinstall
-install_dependency cmake
-install_dependency pkg-config
-install_dependency yasm
-install_dependency libtiff5-dev
-install_dependency libjpeg-dev
-install_dependency libjasper-dev
-install_dependency libavcodec-dev
-install_dependency libavformat-dev
-install_dependency libswscale-dev
-install_dependency libdc1394-22-dev
-install_dependency libxine2-dev
-install_dependency libgstreamer0.10-dev
-install_dependency libgstreamer-plugins-base0.10-dev
-install_dependency libv4l-dev
-install_dependency python-dev
-install_dependency python-numpy
-install_dependency libtbb-dev
-install_dependency libqt4-dev
-install_dependency libgtk2.0-dev
-install_dependency libfaac-dev
-install_dependency libmp3lame-dev
-install_dependency libopencore-amrnb-dev
-install_dependency libopencore-amrwb-dev
-install_dependency libtheora-dev
-install_dependency libvorbis-dev
-install_dependency libxvidcore-dev
-install_dependency x264
-install_dependency v4l-utils
+apt-get -y install libopencv-dev
+apt-get -y install build-essential
+apt-get -y install checkinstall
+apt-get -y install cmake
+apt-get -y install pkg-config
+apt-get -y install yasm
+apt-get -y install libtiff5-dev
+apt-get -y install libjpeg-dev
+apt-get -y install libjasper-dev
+apt-get -y install libavcodec-dev
+apt-get -y install libavformat-dev
+apt-get -y install libswscale-dev
+apt-get -y install libdc1394-22-dev
+apt-get -y install libxine2-dev
+apt-get -y install libgstreamer0.10-dev
+apt-get -y install libgstreamer-plugins-base0.10-dev
+apt-get -y install libv4l-dev
+apt-get -y install python-dev
+apt-get -y install python-numpy
+apt-get -y install libtbb-dev
+apt-get -y install libqt4-dev
+apt-get -y install libgtk2.0-dev
+apt-get -y install libfaac-dev
+apt-get -y install libmp3lame-dev
+apt-get -y install libopencore-amrnb-dev
+apt-get -y install libopencore-amrwb-dev
+apt-get -y install libtheora-dev
+apt-get -y install libvorbis-dev
+apt-get -y install libxvidcore-dev
+apt-get -y install x264
+apt-get -y install v4l-utils
 #install_dependency ffmpeg
-install_dependency unzip
+apt-get -y install unzip
 
