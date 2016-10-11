@@ -2,7 +2,6 @@ cp /etc/apt/sources.list /etc/apt/sources.list.old
 Codename=$(lsb_release -a | grep Codename | awk '{print $2}')
 echo "\
 deb http://mirrors.aliyun.com/ubuntu/ $Codename main multiverse restricted universe
-
 deb http://mirrors.aliyun.com/ubuntu/ $Codename-backports main multiverse restricted universe
 deb http://mirrors.aliyun.com/ubuntu/ $Codename-proposed main multiverse restricted universe
 deb http://mirrors.aliyun.com/ubuntu/ $Codename-security main multiverse restricted universe
@@ -14,7 +13,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-security main multiverse res
 deb-src http://mirrors.aliyun.com/ubuntu/ $Codename-updates main multiverse restricted universe ">/etc/apt/sources.list
 apt-get update
 apt-get upgrade
-apt-get install -y build-essential cmake git pkg-config
+apt-get install -y build-essential cmake  pkg-config
 apt-get install libprotobuf
 apt-get install libprotobuf-dev
 apt-get install libleveldb-dev
