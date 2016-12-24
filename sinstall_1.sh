@@ -57,6 +57,7 @@ echo "------20/24 install gflags ------"
 apt-get install  -y python-gflags
 echo "------21/24 install cython ------"
 apt-get install  -y cython
+pip install easydict 
 echo "------22/24 install ipython ------"
 apt-get install  -y ipython
 echo "------23/24 install python-yaml ------"
