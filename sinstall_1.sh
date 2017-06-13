@@ -64,6 +64,8 @@ echo "------23/24 install python-yaml ------"
 apt-get install  -y python-yaml
 echo "------24/24 install protobuf-c-compiler ------"
 apt-get install  -y protobuf-c-compiler 
+echo "------25/24 install openblas ------"
+apt-get install  -y libopenblas-dev
 sh ./opencv_dependencies.sh
 cd /
 mkdir nn
